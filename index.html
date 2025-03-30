@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia Webpage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Webpage</h1>
+    </header>
+
+    <h2>Steps to Learn Web Development</h2>
+    <ol type="I">
+        <li>Learn HTML5</li>
+        <li>Master CSS Styling</li>
+        <li>Practice JavaScript</li>
+        <li>Build Real Projects</li>
+    </ol>
+    <br><br>
+    <img src="digital.jpg" alt="Digital Image" class="styled-image">
+
+    <section>
+        <h2>Multimedia Section</h2>
+
+        <h3>Listen to This Audio</h3>
+        <audio controls>
+            <source src="java prog.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+
+        <br><br>
+
+        <h3>Watch This Video</h3>
+        <video class="styled-video" controls>
+            <source src="coding.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+    </section>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>123 Elm St</td>
+                <td>0703285635</td>
+                <td>johndoe@email.com</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>456 Oak Ave</td>
+                <td>0746775806</td>
+                <td>janesmith@email.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Registration Form</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required minlength="8">
+        <br><br>
+
+        <button type="submit" class="btn">Register</button>
+    </form>
+
+</body>
+<br><br>
+<br><br>
+<footer>
+    <p>&copy; 2025 My Webpage. All rights reserved.</p>
+</footer>
+
+</html>
